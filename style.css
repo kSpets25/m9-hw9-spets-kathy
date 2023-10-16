@@ -131,3 +131,48 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+
+/* media queries*/
+
+@media screen and (max-width: 500px) {
+  
+  nav > a.logo {
+    margin-right: 0px;
+    padding-bottom: 10px;
+  }
+   
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header {
+    padding: 25px 0;
+  }
+
+  main article {
+    padding: 10px 30px;
+  }
+
+  section.hero > .call-to-action {
+    font-size: 1.75rem;
+    text-shadow: var(--white) .5px 0px 10px, var(--white) .5px 0px 20px, var(--gray) 2px 2px 2px;
+  }
+
+  main > article img {
+    float: none;
+    margin-right: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  main > section, main > article {
+    margin-bottom: 40px;
+  }
+
+  main p {
+    margin-bottom: 30px; 
+  }
+   
+
+}
