@@ -173,6 +173,10 @@ footer {
   main p {
     margin-bottom: 30px; 
   }
+
+  body{
+    main-width: 300px;
+  }
    
 
 }
